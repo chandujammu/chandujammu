@@ -1,0 +1,15 @@
+#Biggest of 2 numbers
+
+a=int(input("Enter A value:")
+b=int(input("Enter B value:")
+
+if(a>b)
+ print("A is big",a)
+
+else:
+ print("B is big",b)
+
+output:
+Enter A value:30
+Enter B value:10
+A is big
