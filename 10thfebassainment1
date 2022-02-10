@@ -1,0 +1,24 @@
+sname=input('enter the student name:')
+srollno=int(input('enter the roll number:'))
+sgroup=input('enter group name:')
+s1=int(input('Maths marks:'))
+s2=int(input('chemistry marks:'))
+s3=int(input('computer marks:'))
+s4=int(input('telugu marks:'))
+s5=int(input('english marks:'))
+s6=int(input('crt marks:'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+  print('pass')
+else:
+  print('fail')
+output:
+enter the student name:Jammu_Chandrasekhar
+enter the roll number:25
+enter group name:mccs
+Maths marks:68
+chemistry marks:72
+computer marks:62
+telugu marks:85
+english marks:83
+crt marks:45
+pass
